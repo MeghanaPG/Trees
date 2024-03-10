@@ -6,11 +6,10 @@
 #         self.right = right
 class Solution:
     def invertTree(self, root: Optional[TreeNode]) -> Optional[TreeNode]:
-        # Time Complexity: O(n) -> n is the number of nodes 
         if not root:
             return None 
         else:
-            # return the modified node 
+        # return the modified node 
             return self.swap_left_right(root) 
 
     # recursion 
