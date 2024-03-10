@@ -6,7 +6,6 @@
 #         self.right = right
 class Solution:
     def goodNodes(self, root: TreeNode) -> int:
-        # Time Complexity: O(n)
         def dfs(node, maxVal):
             if not node:
                 return 0 
