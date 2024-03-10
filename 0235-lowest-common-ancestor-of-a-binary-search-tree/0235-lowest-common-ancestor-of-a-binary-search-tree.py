@@ -7,8 +7,6 @@
 
 class Solution:
     def lowestCommonAncestor(self, root: 'TreeNode', p: 'TreeNode', q: 'TreeNode') -> 'TreeNode':
-        # Time Complexity: O(n)
-
         # parent value 
         parent_val = root.val 
 
@@ -27,4 +25,3 @@ class Solution:
         # we have found the split point 
         else:
             return root 
-        
