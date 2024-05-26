@@ -23,4 +23,3 @@ class Solution:
         
         longest_path(root)
         return diameter 
-        
