@@ -17,6 +17,7 @@ class Solution:
                     continue 
                 childTime = dfs(child, cur)
                 if childTime or hasApple[child]:
+                    # 2 is because for going and traversing back
                     time += 2 + childTime
             return time 
         return dfs(0, -1)
