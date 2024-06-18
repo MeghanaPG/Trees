@@ -7,7 +7,7 @@
 class Solution:
     def insertIntoBST(self, root: Optional[TreeNode], val: int) -> Optional[TreeNode]:
         # Time Complexity: O(n)
-    
+        # DFS 
         def dfs(node,val):
 
             if node is None:
