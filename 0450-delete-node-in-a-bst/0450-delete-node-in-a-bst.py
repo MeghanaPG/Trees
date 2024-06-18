@@ -16,6 +16,7 @@ class Solution:
         elif key < root.val:
             root.left = self.deleteNode(root.left, key)
         else:
+            # to handle the BST after the deletion
             if not root.left:
                 return root.right
             elif not root.right:
