@@ -6,7 +6,8 @@
 #         self.right = right
 class Solution:
     def findBottomLeftValue(self, root: Optional[TreeNode]) -> int:
-        # Time Complexity:
+        # Time Complexity: O(n)
+        # BFS Traversal
         if not root:
             return None
     
